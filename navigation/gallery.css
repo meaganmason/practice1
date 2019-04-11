@@ -1,0 +1,74 @@
+#wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 10%;
+}
+ .h1 {
+  font-family:"source serif pro";
+}
+.ex1{
+  border: 3px solid black;
+  
+}
+p.double {border-style: double;}
+.p{
+font-size:50px;
+}
+.title{
+  font-family:"source serif pro"; 
+}
+.what{
+  border: 1px solid black ;
+}
+ .mcc.jpg{
+    border: 10px solid black ;
+}
+  .body {
+  background-color: #e0ebeb;
+  
+}
+#wrapper {
+   max-width: 940px;
+   margin: 0 auto;
+   padding: 0 10%;
+  
+}
+
+.container {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  display: block;
+  width:0%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#a2c3c3 ;
+  overflow: hidden;
+  width: 0;
+  height: 20%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
